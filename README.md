@@ -25,7 +25,7 @@ transforms SVG code into valid svg graphics. Example:
   )
 )
 ```
-now calling this command will evaluate int picture seen below
+now calling this command will evaluate int picture seen in tree.png
 
 ``` racket
 (display (execute 400 400 tree-prg '(recur-tree 200 400 100 (* 3.14 1.5))))
